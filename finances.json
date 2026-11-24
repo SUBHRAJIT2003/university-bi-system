@@ -1,0 +1,8 @@
+[
+  { "student_id": 1, "feeStatus": "Paid", "amount": 50000 },
+  { "student_id": 2, "feeStatus": "Paid", "amount": 50000 },
+  { "student_id": 3, "feeStatus": "Pending", "amount": 50000 },
+  { "student_id": 4, "feeStatus": "Paid", "amount": 48000 },
+  { "student_id": 5, "feeStatus": "Pending", "amount": 50000 },
+  { "student_id": 6, "feeStatus": "Paid", "amount": 48000 }
+]
