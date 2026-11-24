@@ -39,3 +39,35 @@ university-bi-system/
 ├── index.html       # Interactive BI dashboard, charts, CRUD modal & CSV export
 ├── package.json     # Project metadata and dependencies
 └── .gitignore       # Excludes node_modules and .env files
+
+Getting Started
+Prerequisites
+Node.js (v18+ recommended)
+
+MongoDB (Local installation or MongoDB Atlas URI)
+
+Installation
+Clone the repository:
+
+Bash
+git clone [https://github.com/SUBHRAJIT2003/university-bi-system.git](https://github.com/SUBHRAJIT2003/university-bi-system.git)
+cd university-bi-system
+Install dependencies:
+
+Bash
+npm install
+Configure MongoDB:
+
+By default, server.js connects to mongodb://127.0.0.1:27017/university_dw.
+
+If using MongoDB Atlas, update MONGO_URI in server.js with your connection string.
+
+Start the backend server:
+
+Bash
+node server.js
+The API will run at http://localhost:3000.
+
+Open the application:
+
+Open login.html in your web browser.
